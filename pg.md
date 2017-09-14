@@ -1,4 +1,4 @@
-##PostgreSQL(数据库)资料
+## PostgreSQL(数据库)资料
 
 ![PostgreSQL](https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png)
 
@@ -70,13 +70,29 @@ About:[PostgreSQL About](http://www.postgresql.org/about/)
 
 介绍: Insert分析.
 
-* [《PG 代码分析报告》](http://www.comp.hkbu.edu.hk/~yli/uploads/Main/postgresql.pdf)
+* [《PostgreSQL查询处理部分源码分析》](http://7xtcs7.com1.z0.glb.clouddn.com/PostgreSQL%E6%9F%A5%E8%AF%A2%E5%A4%84%E7%90%86%E9%83%A8%E5%88%86%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.pdf)
 
-介绍: PG 代码分析报告.
+介绍: PostgreSQL查询处理部分源码分析.
 
-* [《PostgreSQL查询处理部分源码分析》](http://vdisk.weibo.com/s/ayG13we1-NAbK)
+* [《PostgreSQL查询处理部分源码分析》](http://www.docin.com/p-271989068.html)
 
 介绍:  PostgreSQL查询处理部分源码分析.
+
+* [《Understanding caching in Postgres》](https://madusudanan.com/blog/understanding-postgres-caching-in-depth/)
+
+介绍:Postgres缓存机制分析.
+
+* [《Discovering the Computer Science Behind Postgres Indexes》](https://blog.codeship.com/discovering-computer-science-behind-postgres-indexes/)
+
+介绍: Postgres索引分析,推荐先阅读[Efficient Locking for Concurrent Operations on B-Trees](http://www.csd.uoc.gr/~hy460/pdf/p650-lehman.pdf).
+
+* [《Estimating the Optimal Number of Latent Concepts in Source Code Analysis》](http://research.cs.queensu.ca/~cordy/Papers/GC_SCAM10_ConceptCount.pdf)
+
+介绍:Estimating the Optimal Number of Latent Concepts in Source Code Analysis.
+
+* [《Pgkernel》](https://wiki.postgresql.org/wiki/Pgkernel)
+
+介绍:Postgres内核分析系列文章
 
 >   :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple:  :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple:  :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple:  :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: :couple: 
 
@@ -96,7 +112,7 @@ About:[PostgreSQL About](http://www.postgresql.org/about/)
 
 介绍：数据库系统概念(第六版)
 
-* [《PostgreSQL从菜鸟到专家(中译稿 by 洞庭湖的泥鳅)》](http://vdisk.weibo.com/s/ayG13we1Y4EA6)
+* [《PostgreSQL从菜鸟到专家(中译稿 by 洞庭湖的泥鳅)》](http://download.csdn.net/detail/lusizeng/8679303)
 
 介绍：这篇文档是国内的一线postgreSQL专家所翻译。很经典
 
@@ -726,8 +742,84 @@ About:[PostgreSQL About](http://www.postgresql.org/about/)
 
 * [《A Tour of PostgREST》](https://begriffs.com/posts/2016-03-20-postgrest-tour.html)
 
-介绍:PostgreSQL REST ful教程
+介绍:PostgreSQL RESTful教程
 
 * [《PostgreSQL's explain analyze made readable》](http://explain.depesz.com/)
 
 介绍:可视化PostgreSQL执行计划,pg学习看执行计划的好资料
+
+* [《PostgreSQL HA Database Clusters through Containment》](https://wiki.postgresql.org/images/1/1e/QuanHa_PGConf_US_2016_-_Doc.pdf)
+
+介绍:pg HA数据库集群分析
+
+* [《PostgreSQL 9.6 New Features With Examples》](http://community.hpe.com/hpeb/attachments/hpeb/JapanEnterpriseTopics/198/1/PostgreSQL%209.6%20New%20Features%20en%2020160606-1.pdf)
+
+介绍:PostgreSQL9.6新特性
+
+* [《Understanding EXPLAIN》](http://www.dalibo.org/_media/understanding_explain.pdf)
+
+介绍:深入学习PostgreSQL的explain工具
+
+* [《PostgreSQL Exercises》](https://pgexercises.com/)
+
+介绍:PostgreSQL学习实验室，有练习。适合新手入门pg
+
+* [《On Uber’s Choice of Databases》](http://use-the-index-luke.com/blog/2016-07-29/on-ubers-choice-of-databases)
+
+介绍:文章诞生于Uber发表的一篇关于从pg迁移到mysql的文章，国内与国外讨论甚广.在讨论过程中诞生了很多精彩的干货，值得一读。学习数据库要深入，并存的世界才是和平.推荐[为PostgreSQL讨说法 - 浅析《UBER ENGINEERING SWITCHED FROM POSTGRES TO MYSQL》](https://yq.aliyun.com/articles/58421)
+
+* [《Advanced Postgres Performance Tips》](https://robots.thoughtbot.com/advanced-postgres-performance-tips)
+
+介绍:高级PostgreSQL性能调优
+
+* [《PostgreSQL Index Internals》](https://www.pgcon.org/2016/schedule/events/934.en.html)
+
+介绍:索引的内部原理,推荐[2016年欧洲pg大会资料](https://www.pgcon.org/2016/schedule/)涵盖ppt与视频
+
+* [《PGLiveBackup》](http://www.pglivebackup.org/)
+
+介绍:pg数据库自动全量备份脚本.
+
+* [《pg_paxos:Basic implementation of Paxos and Paxos》](https://github.com/citusdata/pg_paxos)
+
+介绍:分布式算法Paxos的pg实践，可以先通过[PPT](https://wiki.postgresql.org/images/8/8f/Marco_Slot_-_pg_paxos_2015-10-29.pdf).它实现了基本的Multi-Paxos和Paxos.
+
+* [《Database Hardware Selection Guidelines》](https://momjian.us/main/writings/pgsql/hw_selection.pdf)
+
+介绍:数据库硬件选择指南,主要是一个参考.推荐[Database Hardware Selection Guidelines ](https://www.youtube.com/watch?v=qIlYZeSuv8w)
+
+* [《pglogical:Logical Replication extension for PostgreSQL》](https://github.com/2ndQuadrant/pglogical)
+
+介绍:PostgreSQL逻辑复制扩展.
+
+* [《PostgreSQL: Introduction and Concepts》](http://www.foo.be/docs-free/aw_pgsql_book.pdf)
+
+介绍:PostgreSQL的历史书.
+
+* [《How Twitch uses PostgreSQL》](https://blog.twitch.tv/how-twitch-uses-postgresql-c34aa9e56f58)
+
+介绍:PostgreSQL在twitch的应用.
+
+* [《pg_monz:PostgreSQL monitoring template for Zabbix》](http://pg-monz.github.io/pg_monz/index-en.html)
+
+介绍:PostgreSQL的Zabbix监控模版.
+
+* [《pgclusteradmin:PostgreSQL cluster manager base on Golang》](https://github.com/chenaisheng/pgclusteradmin)
+
+介绍:一款基于go开发的Postgresql集群管理工具
+
+* [《PgHero:PostgreSQL performance monitoring tool》](https://github.com/ankane/pghero)
+
+介绍:基于Ruby开发的PostgreSQL性能监控Web平台，支持SQL查询历史记录，实时连接数监控,SQL分析,性能调优推荐,Tune是基于[pgtune](http://pgtune.leopard.in.ua/)
+
+* [《GiST for PostgreSQL》](http://www.sai.msu.su/~megera/postgres/gist/)
+
+介绍:PostgreSQL的GiST（通用搜索树）核心开发作者主页.
+
+* [《Postage - A fast replacement for PGAdmin》](https://github.com/workflowproducts/postage)
+
+介绍:PGAdmin的替代工具.里面有一个比较实用的功能就是可以逆向表成关系图
+
+* [《Postgres EXPLAIN Visualizer (pev)》](http://tatiyants.com/pev/)
+
+介绍:Postgres 执行计划可视化工具

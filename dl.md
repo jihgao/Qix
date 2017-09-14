@@ -1,10 +1,9 @@
-##机器学习(Machine Learning)&深度学习(Deep Learning)资料(Chapter 1)
----
-#####注:机器学习资料[篇目一](https://github.com/ty4z2008/Qix/blob/master/dl.md)共500条,[篇目二](https://github.com/ty4z2008/Qix/blob/master/dl2.md)开始更新
----
----
-#####希望转载的朋友，你可以不用联系我．但是**一定要保留原文链接**，因为这个项目还在继续也在不定期更新．希望看到文章的朋友能够学到更多．此外:某些资料在中国访问需要梯子.
----
+## 机器学习(Machine Learning)&深度学习(Deep Learning)资料(Chapter 1)
+
+##### 注:机器学习资料[篇目一](https://github.com/ty4z2008/Qix/blob/master/dl.md)共500条,[篇目二](https://github.com/ty4z2008/Qix/blob/master/dl2.md)开始更新
+
+##### 希望转载的朋友，你可以不用联系我．但是**一定要保留原文链接**，因为这个项目还在继续也在不定期更新．希望看到文章的朋友能够学到更多．此外:某些资料在中国访问需要梯子.
+
 
 
 * [《Brief History of Machine Learning》](http://www.erogol.com/brief-history-machine-learning/)
@@ -138,7 +137,7 @@
 
 *[《Deep Learning for Natural Language Processing and Related Applications》](http://research.microsoft.com/pubs/217165/ICASSP_DeepTextLearning_v07.pdf)
 
-介绍:这份文档来自微软研究院,精髓很多。如果需要完全理解，需要一定的机器学习基础。不过有些地方会让人眼前一亮,毛塞顿开。
+介绍:这份文档来自微软研究院,精髓很多。如果需要完全理解，需要一定的机器学习基础。不过有些地方会让人眼前一亮,茅塞顿开。
 
 * [Understanding Convolutions](https://colah.github.io/posts/2014-07-Understanding-Convolutions/)
 
@@ -388,7 +387,7 @@ Fudan NLP里包含中文分词、关键词抽取、命名实体识别、词性�
 
 介绍:MIT的Underactuated Robotics于 2014年10月1日开课，该课属于MIT研究生级别的课程，对机器人和非线性动力系统感兴趣的朋友不妨可以挑战一下这门课程！
 
-* [《mllib实践经验(1)》](http://yanbohappy.sinaapp.com/?p=498)
+* [《mllib实践经验(1)》](http://www.csdn.net/article/2014-12-26/2823330)
 
 介绍:mllib实践经验分享
 

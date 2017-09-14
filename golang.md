@@ -236,7 +236,7 @@
 
 介绍：fleet 绑定了systemd 和etcd 到一个分布式init 系统，可以认为是systemd 的扩展，但是并不是机器级别的，而是集群级别的.
 
-* [《Go资料汇总》](http://studygolang.com/topics/node13)
+* [《Go资料汇总》](http://studygolang.com/topics/node/13)
 
 介绍：Golang中国社区golang资料汇总.
 
@@ -260,13 +260,13 @@
 
 介绍：Go开发新手常犯的50个错误.
 
-* [《GoLang By Eaxmples》](https://gobyexample.com/)
+* [《Golang By Eaxmples》](https://gobyexample.com/)
 
-介绍：GoLang基本代码实例.
+介绍：Golang基本代码实例,[中文版](http://gobyexample.everyx.in/).
 
 * [《Golang News News for Go programmers》](http://golangnews.com/)
 
-介绍：GoLang news.
+介绍：Golang news.
 
 * [《fasthttp:Fast HTTP package for Go》](https://github.com/valyala/fasthttp)
 
@@ -331,3 +331,15 @@
 * [《Golang 语言基础之一： type, variable, constant》](http://xhrwang.me/2014/12/22/golang-fundamentals-1-types-variables-constants.html)
 
 介绍：Golang 语言学习基础教程.
+
+* [《Go Examples》](https://github.com/ibmendoza/go-examples)
+
+介绍：Collection of Go programs for quick reference,golang新手入门看源码就可以了.
+
+* [《Notes on Go》](https://brandur.org/go)
+
+介绍：国外的一位开发者在实践开发一个大型项目之后所写的笔记
+
+* [《Learning Go: Lexing and Parsing》](http://blog.leahhanson.us/post/recursecenter2016/recipeparser.html)
+
+介绍：利用go进行词法分析

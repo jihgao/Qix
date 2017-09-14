@@ -1,8 +1,7 @@
-##分布式系统(Distributed System)资料
+## 分布式系统(Distributed System)资料
 
----
-#####希望转载的朋友，你可以不用联系我．但是**一定要保留原文链接**，因为这个项目还在继续也在不定期更新．希望看到文章的朋友能够学到更多．
----
+##### 希望转载的朋友，你可以不用联系我．但是**一定要保留原文链接**，因为这个项目还在继续也在不定期更新．希望看到文章的朋友能够学到更多．
+
 
 * [《Reconfigurable Distributed Storage for Dynamic Networks》](http://sydney.edu.au/engineering/it/~gramoli/doc/pubs/OPODIS05.pdf)
 
@@ -26,7 +25,7 @@
 
 * [《Google's Globally-Distributed Database》](http://research.google.com/archive/spanner.html)
 
-介绍:Google全球分布式数据介绍
+介绍:Google全球分布式数据介绍,[中文版](http://dblab.xmu.edu.cn/wp-content/uploads/2012/09/20120925_094508_876.pdf)
 
 * [《The Architecture Of Algolia’s Distributed Search Network》](http://highscalability.com/blog/2015/3/9/the-architecture-of-algolias-distributed-search-network.html)
 
@@ -186,7 +185,7 @@
 
 * [《Bigtable: A Distributed Storage System for Structured Data》](https://research.google.com/archive/bigtable-osdi06.pdf)
 
-介绍:支持PB数据量级的多维非关系型大表， 在google内部应用广泛，大数据的奠基作品之一 ， Hbase就是参考BigTable设计。 Bigtable的主要技术特点包括： 基于GFS实现数据高可靠， 使用非原地更新技术（LSM树）实现数据修改， 通过range分区并实现自动伸缩等.
+介绍:支持PB数据量级的多维非关系型大表， 在google内部应用广泛，大数据的奠基作品之一 ， Hbase就是参考BigTable设计。 Bigtable的主要技术特点包括： 基于GFS实现数据高可靠， 使用非原地更新技术（LSM树）实现数据修改， 通过range分区并实现自动伸缩等.[中文版](http://dblab.xmu.edu.cn/wp-content/uploads/2012/05/20120508_172346_207.pdf)
 
 * [《PacificA: Replication in Log-Based Distributed Storage Systems》](http://research.microsoft.com:8082/pubs/66814/tr-2008-25.pdf)
 
@@ -311,7 +310,7 @@
 
 * [《The Datacenter as a Computer》](http://www.cs.berkeley.edu/~rxin/db-papers/WarehouseScaleComputing.pdf)
 
-介绍:介绍了如何构建仓储式数据中心,尤其是对于现在的云计算,分布式学习来说很有帮助.本书是[Synthesis Lectures on Computer Architecture](http://www.morganclaypool.com/toc/cac/1/1)系列的书籍之一,这套丛书还有 《The Memory System》,《Automatic Parallelization》,《Computer Architecture Techniques for Power Efficiency》,《Performance Analysis and Tuning for General Purpose Graphics Processing Units》,《Introduction to Reconfigurable Supercomputing》 等
+介绍:介绍了如何构建仓储式数据中心,尤其是对于现在的云计算,分布式学习来说很有帮助.本书是[Synthesis Lectures on Computer Architecture](http://www.morganclaypool.com/toc/cac/1/1)系列的书籍之一,这套丛书还有 《The Memory System》,《Automatic Parallelization》,《Computer Architecture Techniques for Power Efficiency》,《Performance Analysis and Tuning for General Purpose Graphics Processing Units》,《Introduction to Reconfigurable Supercomputing》,[Memory Systems Cache, DRAM, Disk](http://www.e-reading.club/bookreader.php/138837/Jacob,_Ng,_Wang_-_Memory_systems._Cache,_DRAM,_Disk.pdf) 等
 
 * [《helsinki:Distributed Systems Course slider》](http://www.cs.helsinki.fi/u/jakangas/Teaching/)
 
@@ -451,7 +450,7 @@
 
 * [《Paxos Made Simple》](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
 
-介绍:Paxos让分布式更简单.[译文](http://dsdoc.net/paxosmadesimple/index.html).[参考阅读:关于Paxos的历史](http://duanple.blog.163.com/blog/static/709717672012112203543166/)
+介绍:Paxos让分布式更简单.[译文](http://dsdoc.net/paxosmadesimple/index.html).[参考阅读:关于Paxos的历史](http://duanple.blog.163.com/blog/static/709717672012112203543166/),[understanding Paxos part1](https://distributedthoughts.wordpress.com/2013/09/22/understanding-paxos-part-1/),[Understanding Paxos – Part 2](https://distributedthoughts.wordpress.com/2013/09/30/understanding-paxos-part-2/).[Quora: What is a simple explanation of the Paxos algorithm?](https://www.quora.com/Distributed-Systems-What-is-a-simple-explanation-of-the-Paxos-algorithm),[Tutorial Summary: Paxos Explained from Scratch](http://www.ux.uis.no/~meling/papers/2013-paxostutorial-opodis.pdf),[Paxos algorithm explained, part 1: The essentials](http://bogdan.pistol.gg/2014/04/30/paxos-algorithm-explained-part-1-the-essentials/),[Paxos algorithm explained, part 2: Insights](http://bogdan.pistol.gg/2014/10/20/paxos-algorithm-explained-part-2-insights/)
 
 * [《Consensus Protocols: Paxos》](http://the-paper-trail.org/blog/consensus-protocols-paxos/)
 
@@ -680,3 +679,163 @@
 * [《Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web》](https://www.akamai.com/es/es/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf)
 
 介绍：Consistent Hashing算法描述.
+
+* [《SIGMOD 2016: Accepted Research Papers》](http://sigmod2016.org/pods_list.shtml)
+
+介绍：SIGMOD是世界上最有名的数据库会议之一,最具有权威性,收录论文审核非常严格.2016年的SIGMOD 会议照常进行,上面收录了今年SIGMOD收录的论文,把题目输入google中加上pdf就能找到,很多论文值得阅读,[SIGMOD 2015](http://sigmod2015.org/pods_list.shtml)
+
+* [《Notes on CPSC 465/565: Theory of Distributed Systems》](http://www.cs.yale.edu/homes/aspnes/classes/465/notes.pdf)
+
+介绍:耶鲁大学的分布式系统理论课程笔记
+
+* [《Distributed Operating System Doc PDF》](http://listpdf.com/di/distributed-operating-system-doc-pdf.html)
+
+介绍:分布式系统文档资源（可下载）
+
+* [《Anatomy of a database system》](https://mitpress.mit.edu/sites/default/files/titles/content/9780262693141_sch_0002.pdf)
+
+介绍:数据库系统剖析，这本书是由伯克利大学的[Joseph M. Hellerstein](http://db.cs.berkeley.edu/jmh/)和M. Stonebraker合著的一篇论文.对数据库剖析很有深度.除此以外还有一篇文章[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)。数据库系统架构,厦门大学的数据库实验室教授林子雨组织过[翻译](http://dblab.xmu.edu.cn/sites/default/files/files/linziyu-Architecture%20of%20a%20Database%20System(Chinese%20Version)-ALL.pdf)
+
+* [《A Relational Model of Data for Large Shared Data Banks》](https://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf)
+
+介绍:数据库关系模型论文
+
+* [《RUC Innovative data systems reaserch lab recommand papers》](http://idke.ruc.edu.cn/reading/index.htm)
+
+介绍:中国人民大学数据研究实验室推荐的数据库领域论文
+
+* [《A Scalable Distributed Information Management System》](http://www.cs.utexas.edu/~dahlin/projects/sdims/papers/sdims-sigcomm.pdf)
+
+介绍:构建可扩展的分布式信息管理系统
+
+* [《Distributed Systems in Haskell》](http://yager.io/Distributed/Distributed.html)
+
+介绍:Haskell中的分布式系统开发
+
+* [《Large-scale cluster management at Google with Borg》](research.google.com/pubs/archive/43438.pdf)
+
+介绍:Google使用Borg进行大规模集群的管理,[伯克利大学ppt介绍](http://people.eecs.berkeley.edu/~istoica/classes/cs294/15/notes/09-borg.pdf),[中文版](http://my.oschina.net/HardySimpson/blog?search=Borg)
+
+* [《Lock Free Programming Practice》](http://www.yebangyu.org/LockFreeProgrammingPractice.pdf)
+
+介绍:并发编程（Concurrency Programming）资料,主要涵盖lock free数据结构实现、内存回收方法、memory model等[备份链接](http://pan.baidu.com/s/1sleTpgT) 密码: xc5j
+
+* [《Distributed Algorithms Lecture Notes for 6.852》](http://read.pudn.com/downloads95/ebook/386159/Distributed.Algorithms.pdf)
+
+介绍:Nancy Lynch's的分布式算法研究生课程讲义
+
+* [《Distributed Algorithms for Topic Models》](http://www.jmlr.org/papers/volume10/newman09a/newman09a.pdf)
+
+介绍:分布式算法主题模型.
+
+* [《RecSys - ACM Recommender Systems》](https://recsys.acm.org/)
+
+介绍:世界上非常有名的推荐系统会议，我比较推荐接收的[PAPER](https://recsys.acm.org/recsys16/accepted-contributions)
+
+* [《All Things Distributed》](http://www.allthingsdistributed.com/)
+
+介绍:推荐一个博客,博主是Amazon CTO Werner Vogels,这是一个关注分布式领域的博客.大部分博文是关于在工业界应用.
+
+* [《programming, database, distributed system resource list》](https://github.com/hedengcheng/tech)
+
+介绍:这个Git是由阿里(alibaba)的技术专家何登成维护,主要是分布式数据库.
+
+* [《Making reliable distributed systems in the presence of sodware errors》](http://erlang.org/download/armstrong_thesis_2003.pdf)
+
+介绍:Erlang的作者[Joe Armstrong](http://joearms.github.io/)撰写的论文，面对软件错误构建可靠的分布式系统.[中文译版](http://open.qiniudn.com/[Joe-Armstrong][CN]Making-reliable-distributed-systems-in-the-presence-of-software-errors.pdf)
+
+* [《CS 525: Advanced Distributed Systems[Spring 2016]》](https://courses.engr.illinois.edu/cs525/sched.htm)
+
+介绍:伊利诺伊大学的Advanced Distributed Systems 里把各个方向重要papers（updated Spring 2015）列举出来，可以参考一下
+
+* [《Distributed Algorithms》](https://users.ics.aalto.fi/suomela/da/da-screen.pdf)
+
+介绍:这是一本分布式算法电子书,作者是[Jukka Suomela](https://users.ics.aalto.fi/suomela/da/).讲述了多个计算模型,一致性,唯一标示,并发等.
+
+* [《TinyLFU: A Highly Efficient Cache Admission Policy》](https://arxiv.org/pdf/1512.00727v2.pdf)
+
+介绍:当时是在阅读[如何设计一个缓存系统](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)时看到的，然后通过Google找到了这一篇关于缓存策略的论文，它是LFU的改良版,中文[介绍](http://chuansong.me/n/2254051).如果有兴趣可以看看[Golang实现版](https://github.com/dgryski/go-tinylfu)。结合起来可能会帮助你理解
+
+* [《6.S897: Large-Scale Systems》](https://cs.stanford.edu/~matei/courses/2015/6.S897/)
+
+介绍:斯坦福大学给研究生开的分布式系统课程。教师是 spark 作者 matei. 能把这些内容真正理解透，分布式系统的功力就很强了。
+
+* [《学习分布式系统需要怎样的知识？》](https://www.zhihu.com/question/23645117/answer/124708083)
+
+介绍:[怎么学系列]学习分布式系统需要怎样的知识？
+
+* [《Distributed systems theory for the distributed systems engineer》](http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/)
+
+介绍:分布式系统工程师的分布式系统理论
+
+* [《A Distributed Systems Reading List》](https://dancres.github.io/Pages/)
+
+介绍:分布式系统论文阅读列表,此外推荐威斯康星大学麦迪逊分校计算机系分布式系统学习推荐[阅读列表](http://pages.cs.wisc.edu/~swift/classes/cs739-fa14/wiki/pmwiki.php/Main/ReadingList)
+
+* [《Distributed Systems Reading Group》](http://dsrg.pdos.csail.mit.edu/papers/)
+
+介绍:麻省理工大学分布式系统小组，他们会把平时阅读到的优秀论文分享出来。虽然有些论文本页已经收录，但是里面的安排表[schedule](http://dsrg.pdos.csail.mit.edu/schedule/)还是挺赞的
+
+* [《Scalable Software Architecture》](https://github.com/Developer-Y/Scalable-Software-Architecture)
+
+介绍:分布式系统、可扩展性与系统设计相关报告、论文与网络资源汇总.
+
+* [《MapReduce&Hadoop resource》](http://barbie.uta.edu/~jli/Resources/MapReduce&Hadoop/)
+
+介绍:MapReduce&Hadoop相关论文，涉及分布式系统设计，性能分析，实践，优化等多个方面
+
+* [《Distributed Systems: Principles and Paradigms(second edtion)》](https://vowi.fsinf.at/images/b/bc/TU_Wien-Verteilte_Systeme_VO_(G%C3%B6schka)_-_Tannenbaum-distributed_systems_principles_and_paradigms_2nd_edition.pdf)
+
+介绍:分布式系统原理与范型第二版,[课后解答](http://barbie.uta.edu/~jli/Resources/MapReduce&Hadoop/distributed%20systems%20principles%20and%20paradigms%20solution.pdf)
+
+* [《Distributed Systems Seminar's reading list for Spring 2017》](http://muratbuffalo.blogspot.jp/2016/11/my-distributed-systems-seminars-reading.html)
+
+介绍:分布式系统研讨会论文阅读列表
+
+* [《A Critique of the CAP Theorem》](https://arxiv.org/abs/1509.05393)
+
+介绍:这是一篇评论CAP定理的论文，学习CAP很有帮助,推荐阅读评论文章["A Critique of the CAP Theorem"](https://jvns.ca/blog/2016/11/19/a-critique-of-the-cap-theorem/)
+
+* [《Evolving Distributed Systems》](http://olivergierke.de/2016/10/evolving-distributed-systems/)
+
+介绍:推荐文章《不断演进的分布式系统》.
+
+* [《Ask HN: Recommendations for a book on Distributed Systems?》](https://news.ycombinator.com/item?id=13311124)
+
+介绍:HN上面关于分布式系统相关领域学习的书籍推荐.
+
+* [《SeaweedFS:A simple and highly scalable distributed file system》](https://github.com/chrislusf/seaweedfs)
+
+介绍:Golang开源项目,分布式文件存储系统SeaweedFS
+
+* [《The Design and Implementation of a Log-Structured File System》](https://web.stanford.edu/~ouster/cgi-bin/papers/lfs.pdf)
+
+介绍:论文推荐:设计并实现一个日志结构的文件系统.
+
+* [《DATABASE SYSTEMS》](http://15721.courses.cs.cmu.edu/spring2016/papers/garciamolina-tkde1992.pdf)
+
+介绍:数据库系统的设计与实现，卡内基梅隆大学在2016年春季数据库课程以本书作为教材,并且向外界开放了[Schedule](http://15721.courses.cs.cmu.edu/spring2016/schedule.html).引用一段亚马逊上面的购书评论:
+
+    这本书主要集中在基本的数据库实现方面。看起来很理论，但实际上作者提到的点都有实际的考虑。这一点在写完相关代码后重新阅读感触尤深。但如果不经过自己的思考和实践，这本书实际上读起来仍是“看起来就是那么回事”的感觉。
+
+    不得不说，这本书其实应该是所有进行数据库应用开发的人必读的一本书。大部分数据库里面的概念，书本都有从实际的需求中引导出，一目了然。大部分的教材，在提到数据库的各种概念时，往往是有定义而无解释为何有这种定义。
+
+* [《Don't settle for eventual consistency》](https://yokota.blog/2017/02/17/dont-settle-for-eventual-consistency/)
+
+介绍:原文主要讲述了CAP理论中C在实践中的重要性。做分布式系统的都知道CAP只能三选其二。而且目前很多基础设置服务（云存储，云数据）都无法保证100%可用，那么就是间接的丢掉了A，推荐阅读以下文末推荐的[You Can’t Sacrifice Partition Tolerance](https://codahale.com/you-cant-sacrifice-partition-tolerance/)，分区容错也很重要
+
+* [《Verdi:Formally Verifying Distributed Systems》](http://verdi.uwplse.org/)
+
+介绍:Verdi是一套正规验证分布式系统，开源的项目中有对raft协议实现。Verdi是通过TLA+ 和Coq 等形式方法对系统进行验证
+
+* [《What are the knowledge required to learn distributed system》](https://www.zhihu.com/question/23645117)
+
+介绍:学习分布式系统需要怎样的知识?
+
+* [《TAO: Facebook’s Distributed Data Store for the Social Graph》](https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf)
+
+介绍:Facebook设计的分布式数据 图数据库
+
+* [《Resources for Getting Started with Distributed Systems》](https://caitiem.com/2017/09/07/getting-started-with-distributed-systems/)
+
+介绍:分布式系统初学者资源
